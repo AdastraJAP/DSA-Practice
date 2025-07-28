@@ -45,6 +45,7 @@ cout << "Array after insertion:" << endl;
 for (i = 0; i < size; i++) {
     cout << a[i] << endl;
 }*/
+// for unsorted array
 int temp;
 temp= a[pos-1];
 a[size]=temp;
