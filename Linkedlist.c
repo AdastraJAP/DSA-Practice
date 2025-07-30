@@ -38,7 +38,9 @@ if (choice==0){
 temp=head;
 while(temp!=0){
     printf("%d",temp->data );
-    printf(" ");
+    if(temp->next != NULL){
+        printf(" -> ");
+    }
     temp=temp->next;
 }
 
